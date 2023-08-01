@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -54,21 +56,30 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f1f6f9;
+  color: #394867;
 }
 
 .square {
   background: #fff;
+  color: #394867;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 60px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 60px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .board-row:after {
@@ -79,6 +90,7 @@ body {
 
 .status {
   margin-bottom: 10px;
+  font-size: 24px;
 }
 .game {
   display: flex;
@@ -87,4 +99,14 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+
+.description button {
+  width: 150px;
+  font-family: 'Quicksand', sans-serif;
+  color: #394867;
+  border: 1px solid #394867;
+  border-radius: 3px;
+  background-color: #fff;
+  font-weight: 600;
 }
