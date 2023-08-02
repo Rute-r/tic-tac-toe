@@ -59,7 +59,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 90vh;
   font-family: 'Quicksand', sans-serif;
   background-color: #f1f6f9;
   color: #394867;
@@ -109,4 +109,8 @@ body {
   border-radius: 3px;
   background-color: #fff;
   font-weight: 600;
+}
+
+.highlight {
+  border: 1px solid #394867;
 }

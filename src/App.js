@@ -92,6 +92,7 @@ export default function Game() {
       </div>
       <div className="game-info">
         <ol>{moves}</ol>
+        <p>You are at move #{currentMove}</p>
       </div>
     </div>
   );
